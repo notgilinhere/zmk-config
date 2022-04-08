@@ -20,13 +20,13 @@
 
                 default_layer {
 
-                        bindings = <
+                	bindings = <
    &kp ESC         &kp GRAVE   &kp N1       &kp N2       &kp N3       &kp N4       &kp N5       &kp N6       &kp N7       &kp N8       &kp N9       &kp N0       &kp MINUS    &kp EQUAL    &kp BSPC
-   &kp INSERT      &kp TAB     &kp Q        &kp W        &kp F        &kp P        &kp G        &kp J        &kp L        &kp U        &kp Y        &kp SEMI     &kp LBKT     &kp RBKT     &kp BSLH
-   &kp DELETE      &kp BSPC    &kp A        &kp R        &kp S        &kp T        &kp D        &kp H        &kp N        &kp E        &kp I        &kp O        &kp SQT      &kp ENTER                    
-                   &kp LSHFT   &kp Z        &kp X        &kp C        &kp V        &kp B        &kp B        &kp K        &kp M        &kp COMMA    &kp DOT      &kp SLASH    &kp RSHFT    &kp UP
-                   &kp LCTRL                &kp LALT                  &mo FUNC     &kp SPACE                 &kp SPACE                 &kp LEFT_GUI              &mo LED      &kp LEFT     &kp DOWN     &kp RIGHT 
-                                >;
+   &kp INSERT      &kp TAB     &kp Q        &kp W        &kp E        &kp R        &kp T        &kp Y        &kp U        &kp I        &kp O        &kp P        &kp LBKT     &kp RBKT     &kp BSLH
+   &kp DELETE      &kp CAPS    &kp A        &kp S        &kp D        &kp F        &kp G        &kp H        &kp J        &kp K        &kp L        &kp SEMI     &kp SQT      &kp ENTER                    
+                   &kp LSHFT   &kp Z        &kp X        &kp C        &kp V        &kp B        &kp B        &kp N        &kp M        &kp COMMA    &kp DOT      &kp SLASH    &kp RSHFT    &kp UP
+                   &kp LCTRL                &kp LALT                  &kp SPACE    &mo FUNC                     &kp SPACE              &kp RALT                  &kp RCTRL    &kp LEFT     &kp DOWN     &kp RIGHT 
+                        	>;
                         };
 
                 function_layer {
